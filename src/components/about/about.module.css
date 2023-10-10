@@ -1,0 +1,7 @@
+.about_grid{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(240px,300px));
+    gap: 1rem;
+    width: 70vw;
+    place-content: center;
+}
