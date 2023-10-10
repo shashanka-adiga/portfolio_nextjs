@@ -7,16 +7,16 @@ import Link from "next/link";
 
 function About() {
   return (
-    <div className="  flex items-center justify-center px-4 py-6 max-h-screen w-screen ">
-      <div className={`${styles.about_grid} shadow-lg rounded px-4 py-6`}>
+    <div className="  flex items-center justify-around px-4 py-6 max-h-screen w-screen ">
+      <div className={`${styles.about_grid} shadow-lg rounded px-4 py-6 bg-slate-700`}>
         <div className="p-1 rounded">
-          <Image src={profile} />
+          <Image src={profile} className="rounded-full object-contain"/>
         </div>
         <div className="flex flex-col items-start">
-          <div>
+          <div className="text-slate-200">
             <p>Hi, my name is Shashanka</p>
             <p>
-              I'm a fullstack developer specializing in <strong> Reactjs , Nextjs</strong>  .
+              I'm a fullstack developer specializing in <strong> Reactjs , Nextjs and Nodejs</strong>  .
             </p>
             <button className="hover:bg-pink-400 px-4 py-2 mt-3 md:mt-2 text-white font-bold bg-pink-500 w-fit">
               Download CV
@@ -25,9 +25,9 @@ function About() {
           <div>
             <p className="font-bold mt-3 text-purple-500">social links:</p>
             <div className="flex w-[200px] justify-evenly items-center mt-2 py-1 px-2">
-              <div className="text-3xl border p-[9px] rounded drop-shadow-lg">
+              <div className="text-3xl bg-black  p-[9px] rounded drop-shadow-lg">
                 <Link href="https://github.com/shashanka-adiga">
-                  <BsGithub />{" "}
+                  <BsGithub className="text-white" />{" "}
                 </Link>
               </div>
 

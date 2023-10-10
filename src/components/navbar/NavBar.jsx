@@ -28,15 +28,10 @@ function NavBar() {
         )}
 
         {isOpen ? (
-          <div className="md:hidden flex flex-col justify-center items-center text-white font-semibold">
+          <div className="md:hidden flex flex-col justify-center items-center text-slate-200 font-bold">
             <div onClick={() => setIsOpen(!isOpen)} className="hover:bg-slate-700 w-full flex items-center justify-center p-1">
               <Link className="w-[50px]" href={"/"}>
                 home
-              </Link>
-            </div>
-            <div onClick={() => setIsOpen(!isOpen)} className="hover:bg-slate-700 w-full flex items-center justify-center p-1 ">
-              <Link className="w-[50px]" href={"/skills"}>
-                Skills
               </Link>
             </div>
             <div onClick={() => setIsOpen(!isOpen)} className="hover:bg-slate-700 w-full flex items-center justify-center p-1">
@@ -51,7 +46,7 @@ function NavBar() {
             </div>
           </div>
         ) : (
-          <div className=" hidden  md:flex justify-evenly items-center text-white text-xl font-semibold">
+          <div className=" hidden  md:flex justify-evenly items-center text-slate-200 text-xl font-bold">
             <div>
               <Link href={"/"}>home</Link>
             </div>

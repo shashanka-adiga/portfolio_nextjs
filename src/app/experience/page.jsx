@@ -1,11 +1,12 @@
+import Experience from "@/components/experience/Experience"
 
 
 function ExperiencePage
 () {
   return (
-    <div>ExperiencePage
-        
-    </div>
+    <>
+        <Experience />
+    </>
   )
 }
 
