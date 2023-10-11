@@ -4,10 +4,10 @@ function Experience() {
       <div className=" w-full min-h-full flex flex-col gap-2 container mx-auto px-4 py-6">
         <div className="hover:scale-[102%]  rounded shadow-lg px-6 py-4 flex flex-col gap-2 bg-slate-800">
           <h1 className="text-slate-100 font-bold">
-            Tech Mahindra,{" "}
+            Tech Mahindra,
             <span className="text-slate-200 font-semibold">
               Software Engineer
-            </span>{" "}
+            </span>
           </h1>
           <h1 className=" px-[2px] py-1 text-teal-300 text-xs font-medium leading-5 w-fit" >01/23 – present</h1>
           <p className="text-slate-400 leading-tight">
