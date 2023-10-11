@@ -12,7 +12,7 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body className="bg-slate-800">
+      <body className="bg-slate-900">
         <NavBar />
         <div className="mt-[92px]">{children}</div>
       </body>

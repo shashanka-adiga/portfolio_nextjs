@@ -10,7 +10,7 @@ function NavBar() {
 
   return (
     <nav>
-      <div className="bg-slate-800 px-6 py-4 top-0 fixed w-full">
+      <div className="bg-slate-900 px-6 py-4 top-0 fixed w-full">
         {isOpen ? (
           <div
             onClick={() => setIsOpen(!isOpen)}

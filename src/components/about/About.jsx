@@ -4,11 +4,12 @@ import styles from "./about.module.css";
 import { BsGithub, BsLinkedin } from "react-icons/bs";
 import { GrMailOption } from "react-icons/gr";
 import Link from "next/link";
+import resume from '../../../public/resume.pdf'
 
 function About() {
   return (
     <div className="  flex items-center justify-around px-4 py-6 max-h-screen w-screen ">
-      <div className={`${styles.about_grid} shadow-lg rounded px-4 py-6 bg-slate-700`}>
+      <div className={`${styles.about_grid} shadow-lg rounded px-4 py-6 bg-slate-800 hover:scale-[102%]`}>
         <div className="p-1 rounded">
           <Image src={profile} className="rounded-full object-contain"/>
         </div>
@@ -18,9 +19,13 @@ function About() {
             <p>
               I'm a fullstack developer specializing in <strong> Reactjs , Nextjs and Nodejs</strong>  .
             </p>
+            <a href={resume} download="shashanka_resume">
             <button className="hover:bg-pink-400 px-4 py-2 mt-3 md:mt-2 text-white font-bold bg-pink-500 w-fit">
               Download CV
             </button>
+
+            </a>
+            
           </div>
           <div>
             <p className="font-bold mt-3 text-purple-500">social links:</p>
