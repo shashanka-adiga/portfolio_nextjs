@@ -4,7 +4,7 @@ import styles from "./about.module.css";
 import { BsGithub, BsLinkedin } from "react-icons/bs";
 import { GrMailOption } from "react-icons/gr";
 import Link from "next/link";
-import resume from '../../../public/resume.pdf'
+
 
 function About() {
   return (
@@ -19,7 +19,7 @@ function About() {
             <p>
               I'm a fullstack developer specializing in <strong> Reactjs , Nextjs and Nodejs</strong>  .
             </p>
-            <a href={resume} download="shashanka_resume">
+            <a href="/resume.pdf" download="shashanka_resume">
             <button className="hover:bg-pink-400 px-4 py-2 mt-3 md:mt-2 text-white font-bold bg-pink-500 w-fit">
               Download CV
             </button>
